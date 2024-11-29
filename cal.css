@@ -1,0 +1,69 @@
+#outermost {
+    border-radius: 15px;
+    border: 1px solid #333;
+    width: 350px;
+    height: auto;
+ 
+}
+ 
+.topContainer {
+    height: 200px;
+    width: 350px;
+    background-color: white;
+ 
+}
+ 
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+ 
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(9, 244, 165);
+    width: 350px;
+    border-radius: 0px 0px 15px 15px;
+ 
+ 
+}
+ 
+.gridItem {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 133, 133);
+    border: 1px solid #333;
+    height: 70px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    text-align: center;
+ 
+}
+ 
+.gridItem:nth-child(1),
+.gridItem:nth-child(2),
+.gridItem:nth-child(3),
+.gridItem:nth-child(4),
+.gridItem:nth-child(8),
+.gridItem:nth-child(12),
+.gridItem:nth-child(16) {
+    background-color: rgb(240, 248, 248);
+    color: rgb(29, 38, 38);
+}
+ 
+.gridItem:nth-child(17) {
+    border-radius: 0px 0px 0 15px;
+ 
+}
+ 
+.gridItem:last-child {
+    grid-column: 3/5;
+    border: 1px solid #333;
+    background-color: rgb(193, 245, 245);
+    width: auto;
+    border-radius: 0px 0px 15px 0px;
+ 
+}
